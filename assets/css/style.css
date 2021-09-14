@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap');
+*{
+    box-sizing: border-box;
+    outline: 0;
+    color: white;
+}
+
+body{
+    background-color: #1B2029;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.container {
+    padding: 20px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    border-radius: 20px;  
+    border: solid 3px #20b2aa; 
+    margin-top: 20px;
+}
+
+header h1{
+    color: #20b2aa
+}
+
+main{
+    text-align: center;
+}
+
+main input {
+    width: 100%;
+    background-color: #161923;
+    font-size: 20px;
+    color: rgb(170, 170, 170);
+    padding: 5px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+main input:focus {
+    outline: 2px solid #20b2aa;
+}
+
+main button {
+    border: none;
+    border-radius: 80px;
+    background-color: #20b2aa;
+    color: #fff;
+    height: 40px;
+    width: 22vw;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color:#237c78;
+}
+
+.li-created{
+    margin-bottom: 7px;
+    display: block; 
+    text-align: left;
+    margin-left: -40px;
+}
+
+.button-delete{
+    border:1px solid #20b2aa;
+    background-color: #161923;
+    border-radius:5px;
+    color:red;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    font-size: 1em; 
+    float: right;
+}
+
+@media only screen and (max-width: 918px) {
+    .container{
+        font-size: 18px;
+        max-width: 95vw;
+    }; 
+}
